@@ -16,13 +16,13 @@ export const AccountScreen = ({ navigation }) => {
     <AccountBackground>
       <AccountCover />
       <AnimationWrapper>
-        {/* <LottieView
+        <LottieView
           key="animation"
           autoPlay
           loop
           resizeMode="cover"
-          source={require("../../../../../assets/watermelon.json")}
-        /> */}
+          source={require("../../../../assets/watermelon.json")}
+        />
       </AnimationWrapper>
       <Title>Meals To Go</Title>
       <AccountContainer>
