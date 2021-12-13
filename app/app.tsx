@@ -102,20 +102,6 @@ function App() {
   if (!rootStore || !isNavigationStateRestored) return null
 
   // otherwise, we're ready to render the app
-  // return (
-  //   <ToggleStorybook>
-  //     <RootStoreProvider value={rootStore}>
-  //       <SafeAreaProvider initialMetrics={initialWindowMetrics}>
-  //         <ErrorBoundary catchErrors={"always"}>
-  //           <AppNavigator
-  //             initialState={initialNavigationState}
-  //             onStateChange={onNavigationStateChange}
-  //           />
-  //         </ErrorBoundary>
-  //       </SafeAreaProvider>
-  //     </RootStoreProvider>
-  //   </ToggleStorybook>
-  // )
 
   if (!oswaldLoaded || !latoLoaded) {
     return null;

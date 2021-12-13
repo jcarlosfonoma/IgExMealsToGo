@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favourites screen tests should match snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Text
+    center={true}
+    style={
+      Array [
+        Object {
+          "color": "#262626",
+          "flexWrap": "wrap",
+          "fontFamily": "Oswald_400Regular",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "marginBottom": 0,
+          "marginTop": 0,
+        },
+      ]
+    }
+    variant="body"
+  >
+    No favourites yet
+  </Text>
+</RCTSafeAreaView>
+`;
